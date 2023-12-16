@@ -7,17 +7,9 @@ public class TV {
     private double Diagonal;
     private String Color;
     private String Model;
-    Scanner go = new Scanner(System.in);
-
-    public TV (){
-        this.Brand = go.nextLine();
-        this.Diagonal = go.nextDouble();
-        go.nextLine();
-        this.Model = go.nextLine();
-        this.Color = go.nextLine();
 
 
-
+    public TV() {
     }
 
     public TV (
