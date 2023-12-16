@@ -54,6 +54,8 @@ public class TV {
     public void setModel(String model) {
         Model = model;
     }
+
+    @Override
     public String toString(){
         return String.format("TV с параметрами; \n brand: %s\n Diagonal: %s\n Model: %s\n Color: %s" ,
                 this.Brand,
