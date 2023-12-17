@@ -1,3 +1,5 @@
+package ru.innopolis.java.homework01;
+
 import java.util.Random;
 
 public class Task2 {
